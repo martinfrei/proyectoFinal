@@ -20,24 +20,24 @@
     color: #383B58 ;
 }
 
-.size-base{
+.input-size-base{
     width: 218px;
 }
-.size-xs{
+.input-size-xs{
     width: 254px;
 }
-.size-sm{
+.input-size-sm{
     width:300px;
 }
-.size-md{
+.input-size-md{
     width:346px;
 }
-.size-lg{
+.input-size-lg{
     width:393px;
 }
-.size-xl{
+.input-size-xl{
     width:422px;
 }
-.size-2xl{
+.input-size-2xl{
     width: 448px;
 }

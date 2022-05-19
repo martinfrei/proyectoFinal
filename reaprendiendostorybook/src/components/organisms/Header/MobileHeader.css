@@ -1,4 +1,4 @@
-header{
+#mobile-header{
     background-color:#FFFFFF ;
     height: 93px;
     width: 100%;
@@ -30,6 +30,14 @@ a{
 
 
 nav {
+    
+}
+.nav-container{
+    width: 303px;
+    height: 100vh;
+    border: 1px solid #DFE4EA;
+    z-index: 100;
+    position: fixed;
     position: fixed;
      top: 0;
     bottom: 0;
@@ -39,13 +47,6 @@ nav {
     transition: all 0.75s ease;
     overflow-y: auto;
     text-align: right;
-}
-.nav-container{
-    width: 303px;
-    height: 100vh;
-    border: 1px solid #DFE4EA;
-    z-index: 100;
-    position: fixed;
 }
 
 .active{

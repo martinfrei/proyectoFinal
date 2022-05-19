@@ -22,19 +22,19 @@
     
 }
 
-.size-base{
+.button-size-base{
     width: 164px;
 }
-.size-xs{
+.button-size-xs{
     width: 206px;
 }
-.size-sm{
-   width: 296px;
+.button-size-sm{
+    width: 296px;
 }
-.size-md{
+.button-size-md{
     width:346px;
 }
-.size-lg{
+.button-size-lg{
     width:362px;
 }
 

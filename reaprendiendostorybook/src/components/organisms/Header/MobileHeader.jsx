@@ -15,7 +15,7 @@ export const MobileHeader = ({firstname,lastname}) => {
         'active':isOn
     })
   return (<>
-    <header>
+    <header id='mobile-header'>
       <div className='header-container'>
           <Picture width='xs' height='xs' image='logo'/>
           <Icon icon='menu' width='lg' onClick={toggleIsOn}/>

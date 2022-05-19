@@ -6,16 +6,14 @@ import './Button.css'
 
     
 export const Button = ({size,label,onClick,variant}) => {
-    
     const ButtonClassNames=classNames('button',{
         'variant-primary':variant,
         'variant-secondary':!variant,
-        [`size-${size}`]:size
-
+        [`button-size-${size}`]:size
     })
   return (
       <>
-    <button onClick={onClick} className={ButtonClassNames} >{label}</button>
+      <button onClick={onClick} className={ButtonClassNames} >{label}</button>
     </>
   )
 }
@@ -25,7 +23,6 @@ Button.propTypes = {
     size:PropTypes.oneOf(['base','xs','sm','md','lg','xl']),
     label:PropTypes.node,
     onClick:PropTypes.func,
-
 }
 Button.defaultProps={
     size:'md',

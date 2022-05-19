@@ -1,6 +1,5 @@
 import React from "react";
 import {MobileHeader} from "./MobileHeader";
-
 export default {
   title: "Organisms/MobileHeader",
   component: MobileHeader,
@@ -15,6 +14,7 @@ Mobile.args = {
   // firstname:'martin',
   // lastname:'frei',
 };
+
 
 
 

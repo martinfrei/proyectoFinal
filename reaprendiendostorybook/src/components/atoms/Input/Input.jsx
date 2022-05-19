@@ -6,7 +6,7 @@ export const  Input = ({type,placeholder,variant,size}) => {
 
     const InputClassNames=classNames('input',{
         [`type-${variant}`] :variant,
-        [`size-${size}`]:size,
+        [`input-size-${size}`]:size,
     })
 
     return (
@@ -15,7 +15,7 @@ export const  Input = ({type,placeholder,variant,size}) => {
 }
 
 Input.propTypes = {
-    type:PropTypes.oneOf(['text','password']),
+    type:PropTypes.oneOf(['text','password','email']),
     variant:PropTypes.oneOf(['primary','secondary','base']),
     size:PropTypes.oneOf(['base','xs','sm','md','lg','xl']),
     placeholder:PropTypes.string
